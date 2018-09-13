@@ -1,0 +1,37 @@
+p {
+  font-size: 11pt
+}
+
+h3 {
+  color: #686868;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  text-align: right;
+  padding: 10px 50px ;
+  font-family:"Verdana", sans-serif;
+}
+
+body {
+  display: grid;
+  font-family: "Verdana", Palatino, sans-serif;
+}
+
+img.website-header {
+  float: left;
+}
+
+img.newsroom {
+  float: right;
+}
+
+div.about{
+  display: grid;
+}
+
+div.resume {
+  text-align: center;
+}

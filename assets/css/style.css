@@ -22,6 +22,7 @@ h3 {
 }
 /* put togography scheme at top*/
 nav {
+  display: inline;
   list-style: none;
   text-align: right;
   padding: 10px 50px ;

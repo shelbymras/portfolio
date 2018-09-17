@@ -40,6 +40,11 @@ body {
   display: grid;
 }
 
+section#about {
+  display: grid;
+  
+}
+
 
 img.website-header {
   float: left;
@@ -57,10 +62,6 @@ div.about{
   display: grid;
 }
 
-section#about {
-  display: grid;
-  grid-template-columns: 1fr 2fr
-}
 
 div.resume {
   text-align: center;

@@ -56,7 +56,11 @@ main {
 
 section#about {
   display: grid;
-  background-color: #f5f5f5;
+  padding: 0px 0px 0px 100px;
+}
+
+.about {
+  justify-content: center;
 }
 
 .paragraph-img {
@@ -67,4 +71,9 @@ section#about {
 
 img.newsroom {
   float: right;
+}
+
+section#resume {
+  display: grid;
+  padding: 0px 0px 0px 100px;
 }

@@ -21,52 +21,50 @@ nav ul {
   list-style: none;
   text-align: center;
   font-family: Open Sans;
-  color: black;
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-nav ul li {
+nav ul > li {
   padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
 }
 
+nav > li > a {
+  color: #000000;
+  text-decoration: none;
+}
 nav ul li:hover{
   background-color: #f5f5f5;
 }
+
 body {
   display: block;
   margin: 12px;
-}
-main {
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: 1fr 1fr;
-}
-
-section#about {
-  display: block;
-
 }
 
 img.website-header {
   float: left;
 }
 
-img.newsroom {
-  float: right;
-}
-
-main ul li {
-  font-family: Work Sans;
-}
-
-div.about{
+main {
   display: grid;
 }
 
 
-div.resume {
-  text-align: center;
+section#about {
+  display: grid;
+  background-color: #f5f5f5;
+}
+
+.paragraph-img {
+  display: grid;
+  grid-gap: 5px 15px;
+  grid-template-columns: 500px 500px;
+}
+
+img.newsroom {
+  float: right;
 }

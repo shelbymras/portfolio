@@ -9,12 +9,8 @@ h1{font-size: 2.25rem;font-weight: bold}
 h2{font-size: 1.5rem;}
 h3{font-size: 1.125rem;}
 
-h1, h3, p, ul {
+h1, h2, h3, p, ul {
   font-family: Work Sans;
-}
-
-h2 {
-  font-family: Raleway;
 }
 
 h3 {
@@ -86,6 +82,7 @@ section#resume {
 }
 
 .experience {
+  display: grid;
   padding: 0px 100px 0px 0px;
 }
 

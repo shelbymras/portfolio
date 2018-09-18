@@ -75,9 +75,29 @@ img.newsroom {
 
 section#resume {
   display: grid;
+  grid-gap: 5px;
   padding: 0px 0px 0px 100px;
 }
 
 .education {
-  grid-template: 3fr 2fr;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  text-align: right;
+  padding: 0px 200px 0px 0px;
 }
+
+.experience {
+  padding: 0px 100px 0px 150px;
+}
+
+.organizations {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    text-align: right;
+    padding: 0px 200px 50px 0px;
+  }
+
+.contact {
+    display: grid;
+    padding: 0px 0px 0px 100px;
+  }

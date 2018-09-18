@@ -17,7 +17,10 @@ h3 {
   color: #686868;
 }
 /* put togography scheme at top*/
-
+a {
+  color: #000000;
+  text-decoration: none;
+}
 nav ul {
   list-style: none;
   text-align: center;
@@ -29,8 +32,6 @@ nav ul {
 
 nav ul > li {
   padding: 10px 20px;
-  color: #000000;
-  text-decoration: none;
 }
 
 nav > li > a {
@@ -42,12 +43,13 @@ nav ul li:hover{
 }
 
 body {
-  display: block;
+  display: grid;
   margin: 12px;
 }
 
 img.website-header {
-  float: left;
+  display: grid;
+  grid-template-rows: minmax (90px, 350px);
 }
 
 main {

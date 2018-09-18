@@ -9,14 +9,19 @@ h1{font-size: 2.25rem;font-weight: bold}
 h2{font-size: 1.5rem;}
 h3{font-size: 1.125rem;}
 
-h1, h2, h3, p, ul {
+h1, h3, p, ul {
   font-family: Work Sans;
+}
+
+h2 {
+  font-family: Raleway;
 }
 
 h3 {
   color: #686868;
 }
 /* put togography scheme at top*/
+
 nav ul {
   list-style: none;
   text-align: center;
@@ -76,12 +81,12 @@ img.newsroom {
 section#resume {
   display: grid;
   grid-gap: 5px;
+  grid-template-columns: 1fr;
   padding: 0px 0px 0px 100px;
 }
 
 .education {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr;
   text-align: right;
   padding: 0px 200px 0px 0px;
 }
@@ -91,8 +96,7 @@ section#resume {
 }
 
 .organizations {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr;
     text-align: right;
     padding: 0px 200px 50px 0px;
   }

@@ -61,21 +61,15 @@ main {
 
 section#about {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 0px 0px 0px 100px;
 }
 
-.about {
-  justify-content: center;
-}
-
-.paragraph-img {
+.img-newsroom {
   display: grid;
+  float: right;
   grid-gap: 5px 15px;
   grid-template-columns: 500px 500px;
-}
-
-img.newsroom {
-  float: right;
 }
 
 section#resume {
@@ -92,7 +86,7 @@ section#resume {
 }
 
 .experience {
-  padding: 0px 100px 0px 150px;
+  padding: 0px 100px 0px 0px;
 }
 
 .organizations {

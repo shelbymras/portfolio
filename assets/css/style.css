@@ -57,15 +57,36 @@ main {
 
 section#about {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0px 0px 0px 100px;
+  grid-template-columns: 470px 470px;
+  padding: 0px 100px 0px 100px;
 }
 
-.img-newsroom {
+.about {
   display: grid;
-  float: right;
-  grid-gap: 5px 15px;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: 470px 470px;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 0px 100px 0px 100px;
+}
+
+.paragraph-a {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.sage {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 3;
+}
+
+.paragraph-b {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.paragraph-c{
+  grid-column: 2;
+  grid-row: 4;
 }
 
 section#resume {

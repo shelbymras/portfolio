@@ -78,18 +78,19 @@ section#resume {
 .education {
   grid-template-columns: 1fr;
   text-align: right;
-  padding: 0px 200px 0px 0px;
+  padding: 0px 130px 0px 0px;
 }
 
 .experience {
   display: grid;
-  padding: 0px 100px 0px 0px;
+  grid-template-columns: 1fr;
+  padding: 0px 130px 0px 0px;
 }
 
 .organizations {
     grid-template-columns: 1fr;
     text-align: right;
-    padding: 0px 200px 50px 0px;
+    padding: 0px 130px 50px 0px;
   }
 
 .contact {
